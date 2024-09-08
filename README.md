@@ -85,12 +85,12 @@ int main() {
 
 
 3. Create a new Visual Studio Empty project.![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(190).png)
-5. Add the OpenCV include directories, lib directories, and set up the opencv_world490.lib as mentioned in the code section.
-  * Include Directories: Add the OpenCV include folder (C:\opencv\build\include).
+5. Add the OpenCV include directories, lib directories, and set up the opencv_world490.lib as mentioned in the code section.![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(7).png)
+  * Include Directories: Add the OpenCV include folder (C:\opencv\build\include).![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(83).png) ![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(185).png)
   * Library Directories: Add the OpenCV lib folder (C:\opencv\build\x64\vc16\lib).
-  * Additional Dependencies: Add opencv_world4xx.lib (replace xx with your version).
+  * Additional Dependencies: Add opencv_world4xx.lib (replace xx with your version).![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(186).png)
   * Make sure opencv_world4xx.dll (from C:\opencv\build\x64\vc16\bin) is in the executable directory.
-5. Build and Run: After setting up, build the project and run the application. The GUI window will open, showing a live webcam feed with face detection.
+5. Build and Run: After setting up, build the project and run the application. The GUI window will open, showing a live webcam feed with face detection.![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(189).png)
   
 ### Running the Application
 Run the application, and your webcam feed will appear in a window titled "Webcam Feed - Face Detection".
