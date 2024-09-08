@@ -81,7 +81,8 @@ int main() {
 1 Download OpenCV: Install OpenCV from the official [OpenCV](https://github.com/opencv/opencv/releases) website and set it up in your development environment.
     * To set up OpenCV environment variables, open "Edit the system environment variables," go to "Environment Variables," edit the "Path" under "System variables," and add the path to the OpenCV binaries (e.g.,       C:\opencv\build\x64\vc16\bin).
    
-2 Download Haar Cascade Classifier: Download the [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) from the OpenCV GitHub repository.
+2 Download Haar Cascade Classifier: Download the [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) from the OpenCV GitHub repository.Place haarcascade_frontalface_default.xml in the Same Folder as your project executable.
+
 
 3 Create a new Visual Studio Empty project.
 4 Add the OpenCV include directories, lib directories, and set up the opencv_world490.lib as mentioned in the code section.
@@ -89,8 +90,7 @@ int main() {
   * Library Directories: Add the OpenCV lib folder (C:\opencv\build\x64\vc16\lib).
   * Additional Dependencies: Add opencv_world4xx.lib (replace xx with your version).
   * Make sure opencv_world4xx.dll (from C:\opencv\build\x64\vc16\bin) is in the executable directory.
-5 Place haarcascade_frontalface_default.xml in the Same Folder as your project executable.
-6 Build and Run: After setting up, build the project and run the application. The GUI window will open, showing a live webcam feed with face detection.
+5 Build and Run: After setting up, build the project and run the application. The GUI window will open, showing a live webcam feed with face detection.
   
 ### Running the Application
 Run the application, and your webcam feed will appear in a window titled "Webcam Feed - Face Detection".
