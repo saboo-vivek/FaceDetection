@@ -84,7 +84,7 @@ int main() {
 2. Download Haar Cascade Classifier: Download the [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) from the OpenCV GitHub repository.Place haarcascade_frontalface_default.xml in the Same Folder as your project executable.
 
 
-3. Create a new Visual Studio Empty project.!(https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(190).png)
+3. Create a new Visual Studio Empty project.![img](https://github.com/saboo-vivek/FaceDetection/blob/main/Screenshorts/Screenshot%20(190).png)
 5. Add the OpenCV include directories, lib directories, and set up the opencv_world490.lib as mentioned in the code section.
   * Include Directories: Add the OpenCV include folder (C:\opencv\build\include).
   * Library Directories: Add the OpenCV lib folder (C:\opencv\build\x64\vc16\lib).
